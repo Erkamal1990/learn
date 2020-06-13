@@ -1,0 +1,75 @@
+/* Smart Phones And Tablets */
+@media (max-width: 767px)
+{
+	.header.header-colored .navbar-nav li.active a:after{width: 100%;}
+    
+    .header .navbar-nav { float: none; background-color: #fff; }
+    
+	.header.header-colored .navbar-nav li a,
+	.header .navbar-nav li a { padding: 10px 10px; color: #222; }	
+	
+	.welcome-area .welcome-text .up-title,
+	.welcome-particles .welcome-text .up-title{font-size: 20px;}
+	
+	.welcome-area .welcome-text p,
+	.welcome-particles .welcome-text p,
+	.swiper-container .swiper-wrapper .swiper-slide .overlay-bg .welcome-text p{margin: 0 15%; margin-bottom: 30px;}
+	
+	.swiper-container .swiper-wrapper .swiper-slide.left .overlay-bg .welcome-text p{margin: 0 30% 30px 0;}
+	
+	h1{font-size: 33px; line-height: 35px;}
+	h2{font-size: 28px; line-height: 38px;}
+	h3{font-size: 25px; line-height: 33px;}
+	h4{font-size: 22px; line-height: 28px;}
+	h5{font-size: 18px; line-height: 22px;}
+	h6{font-size: 16px; line-height: 20px;}
+
+	
+	.main-title{font-size: 28px;}
+	
+	.video-area .video-text{padding: 80px 15px;}
+	
+	.video-area .video-image{ position: relative; right: 0; top: 0; height: 500px; width: 100%;}
+	
+	.features .features-text{padding-top: 0px;}
+	
+	.testimonials .single-review p,
+	.join p{margin: 0 10%;}
+	
+	.brands-area img{padding: 5px;}
+	
+	.blog-content .post-details .first-comment img,
+	.blog-content .post-details .second-comment img{width: 80px;}
+	.blog-content .post-details .first-comment .the-comment,
+	.blog-content .post-details .second-comment .the-comment{padding-left: 80px;}
+	.blog-content .post-details .second-comment{margin-left: 60px;}
+
+}
+
+/* Small Screen */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .header .navbar-nav li a{ padding: 33px 12px;}
+	
+	.welcome-area .welcome-text p,
+	.swiper-container .swiper-wrapper .swiper-slide .overlay-bg .welcome-text p{margin: 0 18%; margin-bottom: 30px;}
+	
+	.features .features-text{padding-top: 20px;}
+	
+	.brands-area img{padding: 40px;}
+   
+}
+
+/* Medium Screen */
+@media (min-width:992px) and (max-width: 1199px)
+{ 
+   .welcome-area .welcome-text p,
+	.swiper-container .swiper-wrapper .swiper-slide .overlay-bg .welcome-text p{margin: 0 25%; margin-bottom: 30px;}
+	
+
+}
+
+/* Large Screen */
+@media (min-width:1200px)
+{
+}
